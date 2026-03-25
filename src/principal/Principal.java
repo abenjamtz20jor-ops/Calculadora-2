@@ -8,10 +8,10 @@ public class Principal {
         Scanner sc = new Scanner(System.in);
         
         System.out.println("De cual quiere sacar el area");
-        System.out.println("Del rombo o del trapecio:");
+        System.out.println("Del Triangulo o del circulo:");
         String respuesta=sc.next();
         
-        if(respuesta.equals("rombo"))
+        if(respuesta.equalsIgnoreCase("Triangulo"))
         {System.out.println("Ingresa un numero: ");
         int a = sc.nextInt();
         System.out.println("Ingresa otro numero: ");
@@ -21,12 +21,8 @@ public class Principal {
         //System.out.println("El area del rombo es: "+suma.calculadora(a,b));
         }
         
-        if(respuesta.equals("trapecio"))
-        System.out.println("Ingrese la Base mayor: ");
-        int c = sc.nextInt();
-        System.out.println("Ingresa la base menor: ");
-        int d = sc.nextInt();
-        System.out.println("Ingresa la altura ");
+        if(respuesta.equalsIgnoreCase("circulo"))
+        System.out.println("Ingresa el radio: ");
         int e = sc.nextInt();
         
         //Resta resta = new Resta();
