@@ -26,6 +26,6 @@ public class Principal {
         int e = sc.nextInt();
         
         //Resta resta = new Resta();
-        //System.out.println("El area del trapecio es: "+resta.calculadora(c,d,e));
+        //System.out.println("El area del circulo es: "+resta.calculadora(c,d,e));
     }
 }
