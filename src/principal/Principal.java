@@ -11,14 +11,14 @@ public class Principal {
         System.out.println("Del Triangulo o del circulo:");
         String respuesta=sc.next();
         
-        if(respuesta.equalsIgnoreCase("Triangulo"))
+        if(respuesta.equalsIgnoreCase("triangulo"))
         {System.out.println("Ingresa un numero: ");
         int a = sc.nextInt();
         System.out.println("Ingresa otro numero: ");
         int b = sc.nextInt();
         
         //Suma = new Suma();
-        //System.out.println("El area del rombo es: "+suma.calculadora(a,b));
+        //System.out.println("El area del triangulo es: "+suma.calculadora(a,b));
         }
         
         if(respuesta.equalsIgnoreCase("circulo"))
