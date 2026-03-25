@@ -17,15 +17,15 @@ public class Principal {
         System.out.println("Ingresa otro numero: ");
         int b = sc.nextInt();
         
-        //Suma suma = new Suma();
-        //System.out.println("El area del triangulo es: "+suma.calculadora(a,b));
+        Suma suma = new Suma();
+        System.out.println("El area del triangulo es: "+suma.calculadora(a,b));
         }
         
         if(respuesta.equalsIgnoreCase("circulo"))
         System.out.println("Ingresa el radio: ");
         int e = sc.nextInt();
         
-       // Resta resta = new Resta();
-        //System.out.println("El area del circulo es: "+resta.calculadora(e));
+       Resta resta = new Resta();
+        System.out.println("El area del circulo es: "+resta.calculadora(e));
     }
 }
