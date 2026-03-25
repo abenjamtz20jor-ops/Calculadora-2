@@ -17,7 +17,7 @@ public class Principal {
         System.out.println("Ingresa otro numero: ");
         int b = sc.nextInt();
         
-        //Suma = new Suma();
+        //Suma suma = new Suma();
         //System.out.println("El area del triangulo es: "+suma.calculadora(a,b));
         }
         
